@@ -1,0 +1,2 @@
+(ROOT (S (NP (NNP John)) (VP (VBD went) (PP (TO to) (NP (NN school)))) (. .)))
+(ROOT (S (NP (DT The) (NN school)) (VP (VBD was) (VP (VBN closed))) (. .)))
