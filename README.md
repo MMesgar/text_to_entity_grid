@@ -8,7 +8,8 @@ The "grids" folder contains grid files.
 
 # Run:
 1- Installing "Browncoherence Toolkit" is tricky, and may take some time. 
-I provided a Docker image that makes this process faster. As the first step, take this image from Docker Hub:
+I provided a Docker image that makes this process faster. As the first step, take this image from 
+[here](https://cloud.docker.com/swarm/mmesgar/repository/docker/mmesgar/text_to_egrid) in Docker Hub:
 
 $ docker pull mmesgar/text_to_egrid
 
