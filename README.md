@@ -22,3 +22,7 @@ $ cd /root/text_to_entity_grid/
 
 $ python main.py
 
+
+# What is setup.ipynb?
+Just in case, if you are curious to know how I installed BrownCoherence Toolkit, this notebook provides a step by step explanation of this. 
+
