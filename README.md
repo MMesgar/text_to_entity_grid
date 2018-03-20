@@ -27,3 +27,16 @@ $ python main.py
 # What is setup.ipynb?
 Just in case, if you are curious to know how I installed BrownCoherence Toolkit, this notebook provides a step by step explanation of this. 
 
+# Different versions of entity grids?
+The original entity grid model applies head string match over noun phrases. In another version, it applies string match over all nouns. 
+To get the output of each version, you need to change some lines in ~/browncoherence/src/Sent.cc file.
+
+There is one block in Sent.cc that is annotated with "--mention--". It is commented out now by /\* block \*/.
+In this situation, the model is in its original setting, head string match over NPs. 
+If you like to use all nouns as mentions, remove /\* and \*/. 
+Don't forget to compile the toolkit by 
+
+$ cd ~/browncoherence
+
+$ make everything
+
