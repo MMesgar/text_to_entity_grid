@@ -1,14 +1,14 @@
-EATON X - -
-CORP. S - -
-PACIFIC X - X
-SIERRA X - S
-RESEARCH X - -
-UNIT O - -
-COMPANY X - -
-EMPLOYEES X - O
-TERMS - S -
-LOS - - X
-ANGELES - - X
-SERVICES - - O
-PRODUCTS - - O
-INDUSTRY - - X
+CORP. S - - -
+UNIT O - - -
+COMPANY X - - -
+EMPLOYEES X - O -
+TERMS - S - -
+SIERRA - - S -
+ANGELES - - X -
+SERVICES - - O -
+PRODUCTS - - O -
+INDUSTRY - - X -
+EATON - - - S
+PARTS - - - O
+CONTROLS - - - O
+CONCERN - - - O

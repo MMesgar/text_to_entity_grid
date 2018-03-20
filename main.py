@@ -41,8 +41,6 @@ def make_grid(trees):
     
     cmd_line = ' %(TestGrid)s ../text_to_entity_grid/prs/%(prs_trees)s )' %(params)
 
-    print cmd_line
-
     cmd_args = shlex.split(cmd_line)
     
     proc = subprocess.Popen(cmd_args, cwd='../browncoherence', stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)

@@ -1,0 +1,4 @@
+(ROOT (S (NP (DT The) (JJ Turkish) (NN government)) (VP (VBD fell) (PP (IN after) (NP (JJ mob-tie) (NNS allegations)))) (. .)))
+(ROOT (S (NP (NP (NNP Turkey) (POS 's)) (NN constitution)) (VP (VBZ mandates) (NP (DT a) (NN secular) (NN republic)) (PP (IN despite) (NP (PRP$ its) (JJ Muslim) (NN majority)))) (. .)))
+(ROOT (S (NP (NNP Military) (CC and) (NN secular) (NNS leaders)) (VP (VBD pressured) (S (NP (NNP President) (NNP Demirel)) (VP (TO to) (VP (VB keep) (NP (DT the) (JJ Islamic-oriented) (NNP Virtue) (NNP Party)) (PP (IN on) (NP (DT the) (NN fringe))))))) (. .)))
+(ROOT (S (NP (NNP Business) (NNS leaders)) (VP (VBD feared) (SBAR (S (NP (NNP Virtue)) (VP (MD would) (VP (VB alienate) (NP (DT the) (NN EU))))))) (. .)))

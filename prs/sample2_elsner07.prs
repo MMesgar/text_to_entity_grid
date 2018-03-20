@@ -1,0 +1,4 @@
+(ROOT (S (NP (NP (DT The) (JJ commercial) (NN pilot)) (, ,) (NP (NP (JJ sole) (NN occupant)) (PP (IN of) (NP (DT the) (NN airplane)))) (, ,)) (VP (VBD was) (RB not) (VP (VBN injured))) (. .)))
+(ROOT (S (NP (DT The) (NN airplane)) (VP (VBD was) (VP (VBN owned) (CC and) (VBN operated) (PP (IN by) (NP (DT a) (JJ private) (NN owner))))) (. .)))
+(ROOT (S (NP (JJ Visual) (JJ meteorological) (NNS conditions)) (VP (VBD prevailed) (PP (IN for) (NP (NP (DT the) (JJ personal) (JJ cross) (NN country) (NN flight)) (SBAR (WHPP (IN for) (WHNP (WDT which))) (S (NP (DT a) (NNP VFR) (NN flight) (NN plan)) (VP (VBD was) (VP (VBN filed)))))))) (. .)))
+(ROOT (S (NP (DT The) (NN flight)) (VP (VBP originated) (PP (IN at) (NP (NP (NNP Nuevo) (NNP Laredo)) (, ,) (NP (NNP Mexico)) (, ,))) (PP (IN at) (NP (QP (RB approximately) (CD 1300))))) (. .)))
