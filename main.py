@@ -11,6 +11,7 @@ import time
 import itertools
 from multiprocessing import Pool
 from functools import partial
+from generate_feature_vector import get_feat_vector
 
 
 def make_grid(trees):
@@ -227,7 +228,34 @@ if __name__=="__main__":
         grid = '\n'.join(grid)
 
         # save grid 
-        with open('./grids/%s.grid'%file_name, 'wb') as grid_file:
+        grid_path = './grids/%s.grid'%file_name
+
+        with open(grid_path, 'wb') as grid_file:
         
             grid_file.write(grid)
+
+        # covert the grid to feature vector
+        feat_vec = get_feat_vector(role_set= ['S','O','X','-'], n=2, grid_path=grid_path)
+
+        print feat_vec
+
+        #save the feat_vec 
+        feat_vec_path = './feat/%s.feat'%file_name
+
+        with open(feat_vec_path, 'wb') as feat_file:
+            
+            feat_str= ""
+
+            for k in sorted(feat_vec.keys()):
+
+                feat_str += "%s %f\n"%(k,feat_vec[k])
+                
+            feat_str = feat_str.strip()
+
+            feat_file.write(feat_str)
+
+
+
+
+
 
