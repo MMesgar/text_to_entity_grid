@@ -84,7 +84,8 @@ def load_grid_file(grid_path):
 
 #########################
 ##	compute the probabilities of transitions in a grid
-## 	We define a dictionary whose keys are transtions and values are the count of corrosponding transitions in the grid
+## 	We define a dictionary whose keys are transtions and 
+##  values are the count of corrosponding transitions in the grid
 ##  In this way, we traverse the grid only once. 
 #########################
 def get_trans_probability(grid, transitions):
@@ -102,15 +103,15 @@ def get_trans_probability(grid, transitions):
 	# traverse the grid
 	n_entities, n_sentences =  grid.shape
 
-	for col in range(n_sentences):
+	for row in range(0, n_entities):
 
-		for row in range(n_entities-trans_length+1):
+		for col in range(0, n_sentences - trans_length + 1):
 			
 			visited_tran = tuple()
 
-			for k in range(row, row+trans_length):
+			for k in range(col, col + trans_length):
 
-				visited_tran += tuple(grid[col][k].upper()) # data frame is like Excel, first you should give the column then row
+				visited_tran += tuple(grid[k][row].upper()) # data frame is like Excel, first you should give the column then row
 			
 			transitions_dict[visited_tran] += 1
 
